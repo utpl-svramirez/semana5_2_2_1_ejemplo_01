@@ -25,13 +25,13 @@ VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
 
 # nuevo registo
-nombre = "Ana Salas"
+nombre = "Felix Jara Torres"
 cadena_sql = """INSERT INTO Autor (nombre, apellido, cedula, edad) \
 VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
 
 # nuevo registo
-nombre = "Marco Barcia"
+nombre = "Andrea Espinoza Torres"
 cadena_sql = """INSERT INTO Autor (nombre, apellido, cedula, edad) \
 VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
@@ -53,7 +53,7 @@ for d in informacion:
 print("-------------------------------------------------")
 # inicio proceso de actualización
 cadena = """UPDATE Autor SET apellido='%s' WHERE nombre='%s'""" % \
-("Dávalos Lima", "Ana Salas")
+("Felix Jara Torres", "Andrea Espinoza Torres")
 cursor.execute(cadena)
 conn.commit()
 
