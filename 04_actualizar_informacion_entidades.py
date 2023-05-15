@@ -14,8 +14,8 @@ cursor = conn.cursor()
 
 # Crear una cadena que almacene la sentencia de ingreso de información
 # se recuerda los atributos: nombre, apellido, cedula, edad
-nombre = "Andrés Vinicio"
-apellido = "Jara Vinces"
+nombre = "Silvia"
+apellido = "Ramirez"
 cedula = "1011019091"
 edad = 30
 cadena_sql = """INSERT INTO Autor (nombre, apellido, cedula, edad) \
