@@ -25,13 +25,13 @@ VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
 
 # nuevo registo
-nombre = "Ana Salas"
+nombre = "Felix Torres Jara"
 cadena_sql = """INSERT INTO Autor (nombre, apellido, cedula, edad) \
 VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
 
 # nuevo registo
-nombre = "Marco Barcia"
+nombre = "Andrea Espinoza Torres"
 cadena_sql = """INSERT INTO Autor (nombre, apellido, cedula, edad) \
 VALUES ('%s', '%s', '%s', %d);""" % (nombre, apellido, cedula, edad)
 cursor.execute(cadena_sql)
